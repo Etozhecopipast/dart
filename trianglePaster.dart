@@ -9,6 +9,7 @@ void drawTriangle(){
     print("/_|");
   }
 }
+
 void main() {
 
   drawTriangle();
