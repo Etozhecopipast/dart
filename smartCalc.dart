@@ -33,5 +33,4 @@ void main() {
   } else {
     print("Invalid operator!");
   }
-  
 }
