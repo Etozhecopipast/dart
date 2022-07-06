@@ -10,10 +10,7 @@ class Student{
   //Метод - функция, которая находится внутри класса
   bool exelStudent(){
     return this.gpa >= 4.5;
-  }
-  
-  
-  
+  } 
 }
 
 void main() {
