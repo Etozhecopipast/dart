@@ -1,0 +1,29 @@
+import "dart:io";
+
+String prompt (String promptText){
+  
+  print (promptText);
+  String answer = stdin.readLineSync()!;
+  return answer;
+}
+
+double promptDouble(){
+  
+  print("Enter a number:");
+  double myNum = double.parse(stdin.readLineSync()!);
+  return myNum;
+}
+
+void main() {
+
+    print("Guess the name game");
+  
+    String answer = 'ilya melnikov';
+    String guess = '';
+
+    while(guess != answer){
+      guess = prompt("Enter a guess");
+    }
+
+    print("You won!");
+}
