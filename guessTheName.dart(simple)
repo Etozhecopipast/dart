@@ -20,10 +20,12 @@ void main() {
   
     String answer = 'ilya melnikov';
     String guess = '';
+    int gueesCount = 0;
 
     while(guess != answer){
       guess = prompt("Enter a guess");
+      gueesCount++;
     }
-
-    print("You won!");
+    
+    print("You won!(Number of attempts ${gueesCount})");
 }
