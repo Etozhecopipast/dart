@@ -47,6 +47,5 @@ void main() {
       break;
     default:
       print("Invalid operator");
-  }
-  
+  } 
 }
