@@ -11,6 +11,9 @@ class Student{
   bool exelStudent(){
     return this.gpa >= 4.5;
   }
+  
+  
+  
 }
 
 void main() {
@@ -18,5 +21,6 @@ void main() {
   Student Ilya = Student('Ilya', 4.5);
   Student Alex = Student ('Alex', 3.3);
 
+  print(Ilya.exelStudent());
   print(Alex.exelStudent());
 }
